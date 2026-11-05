@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashora Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+  /* Layout: one readable column, a short summary of "on your device" vs "shared", then the full policy. */
+  :root {
+    --bg: #f5f7fc;
+    --surface: #ffffff;
+    --fg: #101828;
+    --muted: #4a5468;
+    --line: #dde3ef;
+    --accent: #1641ff;
+    --accent-soft: #e7ecff;
+    --ok: #0b7a4b;
+    --ok-soft: #e3f4ec;
+    --font-display: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #070b16; --surface: #0e1528; --fg: #eef2fb; --muted: #a3adc2; --line: #1f2a44;
+      --accent: #7d97ff; --accent-soft: #16214a; --ok: #4fdba0; --ok-soft: #0f2b22; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #070b16; --surface: #0e1528; --fg: #eef2fb; --muted: #a3adc2; --line: #1f2a44;
+    --accent: #7d97ff; --accent-soft: #16214a; --ok: #4fdba0; --ok-soft: #0f2b22; color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--fg); font: 400 16px/1.65 var(--font-body);
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 40px 64px;
+  }
+  main { max-width: 720px; margin: 0 auto; display: grid; gap: 28px; }
+  header { display: grid; gap: 10px; }
+  .app { display: flex; align-items: center; gap: 12px; }
+  .badge {
+    width: 44px; height: 44px; border-radius: 12px; flex: none;
+    background: linear-gradient(135deg, #35d6ff, #1641ff); display: grid; place-items: center;
+  }
+  .badge svg { width: 26px; height: 26px; }
+  .eyebrow { font: 600 12px/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+  h1 { font: 800 clamp(28px, 5vw, 40px)/1.15 var(--font-display); margin: 0; text-wrap: balance; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .meta code { font: 500 13px var(--font-mono); }
+  p { margin: 0; }
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+  .pill { border-radius: 14px; padding: 16px 18px; display: grid; gap: 6px; }
+  .pill strong { font-size: 15px; }
+  .pill span { color: var(--muted); font-size: 14px; }
+  .local { background: var(--ok-soft); }
+  .local strong { color: var(--ok); }
+  .shared { background: var(--accent-soft); }
+  .shared strong { color: var(--accent); }
+  section { display: grid; gap: 14px; }
+  h2 { font: 800 21px/1.3 var(--font-display); margin: 8px 0 0; padding-top: 18px; border-top: 1px solid var(--line); }
+  ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+  li { min-width: 0; }
+  li b { font-weight: 700; }
+  a { color: var(--accent); text-underline-offset: 3px; overflow-wrap: anywhere; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+  .host { font: 500 13px var(--font-mono); color: var(--muted); }
+  .contact { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: grid; gap: 6px; }
+  .contact .mail { font: 600 17px var(--font-body); user-select: all; }
+  footer { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <div class="app">
+      <div class="badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="#fff"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg>
+      </div>
+      <span class="eyebrow">Dashora</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: November 5, 2026</p>
+    <p>Amine Tahtoub / ATDIGITALSTUDIO ("we") publishes the Dashora app ("the app"). This policy explains what the app accesses and why.</p>
+  </header>
+
+  <div class="summary" aria-label="Summary">
+    <div class="pill local"><strong>Stays on your phone</strong><span>Settings, car data, trips, fuel log, document photos (encrypted), contacts, messages, music. We have no server and no account.</span></div>
+    <div class="pill shared"><strong>Sent only when needed</strong><span>Map, search, routes, weather, prayer times, radio and podcasts use free online services. Ads (AdMob) and crash reports (Crashlytics).</span></div>
+  </div>
+
+  <section>
+    <h2>Data that stays on your device</h2>
+    <ul>
+      <li><b>Settings and preferences</b> (dashboard layout, speed alert values, car profiles, saved Home/Work addresses, favorite songs, calls placed from the app) are stored only on your device.</li>
+      <li><b>Location</b> is used while the dashboard is open to show your position on the map, your speed, your area name and local weather, and to guide you turn by turn. It is kept in memory only while the app runs: it is never written to storage, never kept as a history and never sent to us.</li>
+      <li><b>Map tiles</b> already displayed are cached on your device so the map keeps working without a connection. The cache contains map images only, not your position.</li>
+      <li><b>Contacts</b> are read on your device only to display them and to call people by name.</li>
+      <li><b>Calls</b>: calls are placed by Android's phone app. While a call placed from Dashora is in progress, the app only checks whether the phone is in a call (audio mode) to show the call bar, and, if you allow "manage calls", hangs up when you tap Hang up. Calls are never listened to, recorded or sent anywhere.</li>
+      <li><b>My car</b>: odometer, maintenance tasks and history, document expiry dates and trips (date, distance, duration, maximum speed) are stored on your device only. Trips are recorded only while the dashboard is open; they contain no route or position. The fuel log (litres, price, mileage) stays on your device too.</li>
+      <li><b>Document photos</b> (registration, insurance, licence...): taken with your camera app or picked from your gallery, then encrypted on your device with a key kept in Android's secure hardware. They open only after your phone's own check (fingerprint, face or screen-lock code), are never sent anywhere and are not included in backups.</li>
+      <li><b>Emergency contact (SOS)</b>: the name and number you choose are stored on your device only. Holding the SOS button opens your own SMS app with a message and a link to your position; nothing is sent unless you send it.</li>
+      <li><b>Music files</b> on your device are read only to list and play them.</li>
+      <li><b>Notifications</b> (if you enable notification access) are shown and read aloud on your device and are never transmitted. Received chat messages (sender name, text, time) are kept in a local message history on your device for at most 7 days (400 messages) so you can read them again; you can turn this off or clear it at any time in Settings > Notifications, and it is deleted when you uninstall the app. When you reply from the app (by voice after confirmation, or with a quick reply), the text is handed to the messaging app through its own notification "Reply" action, exactly as a smartwatch does; the messaging app then sends it under its own privacy policy. Reply actions are kept in memory only.</li>
+      <li><b>Microphone</b>: speech is captured only after you tap the microphone, through Android's speech recognition service.</li>
+      <li><b>Motion sensors</b> (compass, tilt) are read only while the Tools screen is open and are never stored.</li>
+      <li><b>Parked car position</b>: when your car's Bluetooth disconnects (or when you tap "My car is parked here"), the last position is saved on your device only. One position is kept, replaced at the next parking, and you can delete it at any time.</li>
+      <li><b>Apps grid, radio favorites, podcast subscriptions and listening positions, YouTube watch history, quick replies</b>: stored only on your device.</li>
+      <li><b>Prayer times</b>: the times of the current day are cached on your device together with the rounded position used to compute them, so they work offline.</li>
+      <li><b>Installed apps</b>: the Apps grid reads the list of apps that have a launcher icon, on your device only, so you can pick which ones to show. This list is never sent anywhere.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Data shared with third parties</h2>
+    <ul>
+      <li><b>Map display</b> <span class="host">openfreemap.org</span><br>Map tiles, fonts and icons are downloaded from OpenFreeMap. These requests contain the area of the map being displayed, not your GPS position, plus your IP address as for any internet request.</li>
+      <li><b>Address search</b> <span class="host">photon.komoot.io</span><br>When you search for a place or tap Fuel / Parking, the text you type and your current position are sent to Photon (operated by komoot) to find and rank nearby results.</li>
+      <li><b>Route calculation</b> <span class="host">router.project-osrm.org</span><br>When you start a route, and when the route is recalculated because you left it, your current position and the destination are sent to the OSRM routing server (operated by the OSRM project / FOSSGIS). These services receive the position only at that moment; the app does not send your position continuously.</li>
+      <li><b>Places shared from other apps</b><br>When you open a location from a messaging app, a map app or another app in Dashora, the place is read on your device. If it is a short link (for example maps.app.goo.gl), the app asks Google for the address the link points to; only the link is sent, not your position. The route is then calculated as described above.</li>
+      <li><b>Feedback</b><br>"Send feedback" opens your own mail app with a message containing the app version, Android version, device model and app language. You can read and edit it before sending; nothing is sent by the app itself.</li>
+      <li><b>Walking route to the parked car</b> <span class="host">routing.openstreetmap.de</span><br>When you ask for it, your current position and the car position are sent to the FOSSGIS OSRM server.</li>
+      <li><b>Road speed limit</b> <span class="host">overpass-api.de</span><br>While the dashboard is open with location on, your position is sent to the Overpass API (OpenStreetMap data) at most once every 30 seconds and only after you moved more than 300 m, to read the speed limit of the road you are on.</li>
+      <li><b>Radio</b> <span class="host">radio-browser.info</span><br>The station list, your searches (station name, genre or country) and the identifier of the station you play are sent to Radio Browser. The audio stream is then downloaded from the radio station's own server, which sees your IP address.</li>
+      <li><b>Podcasts</b> <span class="host">itunes.apple.com</span><br>The words you search are sent to Apple's iTunes Search API. Episode lists and audio are downloaded from each podcast's own server.</li>
+      <li><b>YouTube</b><br>The words you search are sent to the YouTube Data API (Google). Videos are played with YouTube's official embedded player, which is operated by Google under its own <a href="https://policies.google.com/privacy" rel="noopener">privacy policy</a>. Video is shown only while the car is stopped. No position is sent to YouTube by the app.</li>
+      <li><b>Prayer times</b> <span class="host">aladhan.com</span><br>Your position rounded to about 1 km and the chosen calculation method are sent to Aladhan once a day.</li>
+      <li><b>Weather</b> <span class="host">open-meteo.com</span><br>Approximate coordinates (rounded to about 1 km) are sent to Open-Meteo to get current weather.</li>
+      <li><b>External navigation apps</b><br>If you choose to open a route in another navigation app installed on your phone, the destination is handed to that app, which applies its own privacy policy.</li>
+      <li><b>Other apps opened from the dashboard</b> (navigation, messaging or music apps installed on your phone)<br>They apply their own privacy policy. Dashora only opens them; it does not send them data, except the destination for navigation apps.</li>
+      <li><b>Advertising</b> <span class="host">Google AdMob</span><br>The app uses Google AdMob, which may collect device identifiers (advertising ID), IP address and usage data to serve and measure ads, according to the consent you give in the privacy message. Ads are never shown while the car is moving, during guidance or in Drive Mode. See <a href="https://policies.google.com/technologies/ads" rel="noopener">how Google uses data in ads</a>. You can change your choice in Settings &gt; Privacy &gt; Ad privacy choices.</li>
+      <li><b>Consent message</b> <span class="host">Google UMP</span><br>The privacy message shown on first launch is provided by Google's User Messaging Platform. To know whether it must be shown in your region and to store your choice, it receives your IP address and device information. See <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</li>
+      <li><b>Crash reports</b> <span class="host">Firebase Crashlytics</span><br>When the app crashes, a report is sent to Firebase Crashlytics (Google LLC) so we can fix the problem. It contains the technical error (stack trace), the device model, the Android version, the app version, a random installation identifier generated by Firebase (it does not identify you and is reset when the app is reinstalled), and three technical settings of the app at the time of the crash: its language, whether Drive Mode was on, and the dashboard layout. It never contains your position, contacts, messages, call history or anything you type. Reports are kept by Google for 90 days. You can turn crash reports off at any time in Settings &gt; Privacy &gt; Send crash reports. See <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase privacy</a>.</li>
+    </ul>
+    <p>All requests identify the app with a User-Agent header (app name and version), not you.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>The app is not directed to children under 13.</p>
+  </section>
+
+  <section>
+    <h2>Not affiliated</h2>
+    <p>Dashora is an independent app, not affiliated with Apple, Google or any car manufacturer.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="contact">
+      <span class="meta">Questions about this policy or your data</span>
+      <span class="mail">contact@atdigitalstudio.com</span>
+    </div>
+  </section>
+
+  <footer>© 2026 Amine Tahtoub / ATDIGITALSTUDIO</footer>
+</main>
+</body>
+</html>
