@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Weather Alarm</title>
+<meta name="description" content="Privacy policy of the Android app Weather Alarm – Forecast &amp; Radar by AT Digital Studio.">
+<style>
+  :root { --bg:#f6f8fa; --card:#fff; --text:#111827; --muted:#475569; --accent:#287c70; --line:#e2e8f0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111827; --card:#1f2937; --text:#f1f5f9; --muted:#cbd5e1; --accent:#6ee7c4; --line:#334155; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  article { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:28px 24px; }
+  h1 { font-size:1.7rem; line-height:1.25; margin:0 0 8px; }
+  h2 { font-size:1.15rem; margin:28px 0 8px; color:var(--accent); }
+  p, li { color:var(--muted); }
+  .meta { font-size:.92rem; color:var(--muted); margin-bottom:20px; }
+  a { color:var(--accent); word-break:break-word; }
+  footer { text-align:center; font-size:.85rem; color:var(--muted); margin-top:24px; }
+</style>
+</head>
+<body>
+<main>
+<article>
+<h1>Privacy Policy — Weather Alarm: Forecast &amp; Radar</h1>
+<p class="meta">Last updated: November 11, 2026 · Developer: AT Digital Studio ·
+Contact: <a href="mailto:contact@atdigitalstudio.com">contact@atdigitalstudio.com</a></p>
+
+<p>This policy explains how the Android app <strong>Weather Alarm: Forecast &amp; Radar</strong>
+(<code>com.atdigitalstudio.weatheralarm</code>, "the App") handles information.</p>
+<p>In short: the App needs a location (a city you pick, or your device location if you allow it) to show the
+weather. Your alarms, saved cities and settings stay on your device. The App does not require an account and
+we do not run any database about you.</p>
+
+<h2>1. Location</h2>
+<p>You can either search for a city or let the App use your device location. Location is requested only when
+you tap "Use my location" (or open the outdoor tools) and is used only in the foreground to show the weather
+where you are; it is never collected in the background. Your device may turn the coordinates into a place name
+using the Android geocoding service (provided by Google on most devices).</p>
+<p>To get a forecast, the App sends the coordinates of the selected place (rounded to 4 decimals, about 10 m) and
+the place name to our weather server (see section 2). Coordinates are not linked to any identifier of you or
+your device.</p>
+
+<h2>2. Weather data and our server</h2>
+<p>Weather requests go through our own server, hosted on Cloudflare Workers, which forwards them to the weather
+provider and briefly caches the results (up to 30 minutes for forecasts, 24 hours for city searches) to keep
+the App fast. We do not store requests in any database and we do not build profiles. As with any internet
+service, Cloudflare processes your IP address to deliver the request.</p>
+<ul>
+  <li><strong>Forecasts</strong>: MET Norway (Norwegian Meteorological Institute, api.met.no), licensed CC BY 4.0. MET Norway receives only the place coordinates from our server, not your IP address.</li>
+  <li><strong>City search</strong>: the text you type is sent to Photon (komoot), based on OpenStreetMap data (© OpenStreetMap contributors).</li>
+  <li><strong>Official weather alerts</strong> (when available): WeatherAPI.com may receive the place coordinates from our server.</li>
+  <li><strong>Precipitation map</strong>: map and satellite precipitation images (NASA GPM IMERG) are downloaded by your device directly from NASA GIBS (gibs.earthdata.nasa.gov), which therefore sees your IP address, like any website.</li>
+</ul>
+
+<h2>3. Alarms, cities and settings stored on your device</h2>
+<p>Your alarms (time, days, weather conditions, ringtone choice), saved cities, the last weather downloaded,
+destinations you save in the outdoor tools and your preferences (units, theme, language) are stored locally on
+your device. They are not sent to us. They may be included in your personal Android backup (Google account)
+if you have enabled device backup. Clearing the App's data or uninstalling it deletes them.</p>
+
+<h2>4. Outdoor tools (compass, GPS, navigation)</h2>
+<p>The compass uses your device's motion sensors; the GPS screen shows your position, accuracy and speed. All of
+this is computed on your device. Coordinates leave the App only if you choose "Copy", "Share", "Open in Maps"
+or "Route", in which case they go to the app you choose.</p>
+
+<h2>5. Notifications and alarms</h2>
+<p>The App uses notifications for ringing alarms and weather notices, and Android's exact-alarm and full-screen
+features so alarms ring on time, even on the lock screen. To prepare the weather briefing, the App may refresh
+the forecast for the alarm's place shortly before an alarm rings.</p>
+
+<h2>6. Advertising (Google AdMob)</h2>
+<p>The App is free and shows ads through Google AdMob: banners, native ads (always labelled "Ad"), full-screen
+ads and app open ads. Full-screen ads are never shown while an alarm is ringing. To serve and measure ads, Google
+may collect and process the device advertising ID, IP address, approximate location derived from the IP, device
+and app information, and ad interaction data.</p>
+<p>Where required (for example in the EEA, UK, Switzerland and certain US states), the App asks for your consent
+through Google's User Messaging Platform before ads are requested. You can change your choice at any time in
+Settings → Ad privacy settings (shown when applicable). You can also reset or delete your advertising ID in
+Android settings.</p>
+<p>Google's policy: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></p>
+
+<h2>7. Reviews</h2>
+<p>When you rate the App, Google Play's In-App Review is used and the review is handled under your Google account.</p>
+
+<h2>8. Contacting us</h2>
+<p>If you write to us, we receive only what you choose to send (your e-mail address and message) and use it only
+to answer you.</p>
+
+<h2>9. Permissions</h2>
+<ul>
+  <li><strong>Location (approximate and precise)</strong>: weather where you are and the outdoor tools, only while you use them.</li>
+  <li><strong>Internet and network state</strong>: download weather, maps and ads; show the offline state.</li>
+  <li><strong>Notifications</strong> (Android 13+): ringing alarms and weather notices.</li>
+  <li><strong>Exact alarms, full-screen intent, wake lock, run at startup</strong>: ring alarms on time, on the lock screen, and restore them after a restart.</li>
+  <li><strong>Foreground service (media playback)</strong>: play the alarm sound reliably while it rings.</li>
+  <li><strong>Vibration</strong>: vibrate when an alarm rings (can be turned off per alarm).</li>
+  <li><strong>Advertising ID</strong>: ads, as described in section 6.</li>
+</ul>
+
+<h2>10. Data sharing</h2>
+<p>We do not sell personal data. We do not collect personal data on our own servers. Data is processed by the
+services listed above only to provide weather data, maps, city search and advertising.</p>
+
+<h2>11. Data retention</h2>
+<p>Local data stays on your device until you delete it or uninstall the App. Our server only keeps short-lived
+caches of weather responses (at most 24 hours) that are not linked to you. Data collected by Google is retained
+according to Google's policies. E-mails are kept only as long as needed to handle your request.</p>
+
+<h2>12. Children</h2>
+<p>The App is not directed at children under 13. We do not knowingly collect personal information from children.
+If you believe a child has provided personal information, contact us and we will help remove it.</p>
+
+<h2>13. Security</h2>
+<p>All network traffic of the App uses encrypted connections (HTTPS); unencrypted traffic is disabled.</p>
+
+<h2>14. Weather information disclaimer</h2>
+<p>Forecasts, satellite precipitation estimates and alerts come from third parties and may be incomplete, delayed
+or wrong. Do not rely on the App alone for safety decisions; follow your national weather service and local
+authorities.</p>
+
+<h2>15. Your rights</h2>
+<p>Depending on your location you may have rights to access, correct or delete data. For data held by Google, use
+Google's tools. For any question, contact
+<a href="mailto:contact@atdigitalstudio.com">contact@atdigitalstudio.com</a>.</p>
+
+<h2>16. Changes</h2>
+<p>We may update this policy. The "Last updated" date shows the latest version.</p>
+<p><a href="terms/">Terms of Use</a></p>
+</article>
+<footer>© 2026 AT Digital Studio · <a href="https://www.atdigitalstudio.com">atdigitalstudio.com</a></footer>
+</main>
+</body>
+</html>
