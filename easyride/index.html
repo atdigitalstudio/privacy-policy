@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasyRide Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+  /* Layout: one readable column, a short summary of "on your device" vs "shared", then the full policy. */
+  :root {
+    --bg: #f5f7fc;
+    --surface: #ffffff;
+    --fg: #101828;
+    --muted: #4a5468;
+    --line: #dde3ef;
+    --accent: #1641ff;
+    --accent-soft: #e7ecff;
+    --ok: #0b7a4b;
+    --ok-soft: #e3f4ec;
+    --font-display: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #070b16; --surface: #0e1528; --fg: #eef2fb; --muted: #a3adc2; --line: #1f2a44;
+      --accent: #7d97ff; --accent-soft: #16214a; --ok: #4fdba0; --ok-soft: #0f2b22; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #070b16; --surface: #0e1528; --fg: #eef2fb; --muted: #a3adc2; --line: #1f2a44;
+    --accent: #7d97ff; --accent-soft: #16214a; --ok: #4fdba0; --ok-soft: #0f2b22; color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--fg); font: 400 16px/1.65 var(--font-body);
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 40px 64px;
+  }
+  main { max-width: 720px; margin: 0 auto; display: grid; gap: 28px; }
+  header { display: grid; gap: 10px; }
+  .app { display: flex; align-items: center; gap: 12px; }
+  .badge {
+    width: 44px; height: 44px; border-radius: 12px; flex: none;
+    background: linear-gradient(135deg, #ffb347, #ff5a1f); display: grid; place-items: center;
+  }
+  .badge svg { width: 26px; height: 26px; }
+  .eyebrow { font: 600 12px/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+  h1 { font: 800 clamp(28px, 5vw, 40px)/1.15 var(--font-display); margin: 0; text-wrap: balance; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .meta code { font: 500 13px var(--font-mono); }
+  p { margin: 0; }
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+  .pill { border-radius: 14px; padding: 16px 18px; display: grid; gap: 6px; }
+  .pill strong { font-size: 15px; }
+  .pill span { color: var(--muted); font-size: 14px; }
+  .local { background: var(--ok-soft); }
+  .local strong { color: var(--ok); }
+  .shared { background: var(--accent-soft); }
+  .shared strong { color: var(--accent); }
+  section { display: grid; gap: 14px; }
+  h2 { font: 800 21px/1.3 var(--font-display); margin: 8px 0 0; padding-top: 18px; border-top: 1px solid var(--line); }
+  ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+  li { min-width: 0; }
+  li b { font-weight: 700; }
+  a { color: var(--accent); text-underline-offset: 3px; overflow-wrap: anywhere; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+  .host { font: 500 13px var(--font-mono); color: var(--muted); }
+  .contact { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: grid; gap: 6px; }
+  .contact .mail { font: 600 17px var(--font-body); user-select: all; }
+  footer { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <div class="app">
+      <div class="badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="#fff"><path d="M19 7c0-1.1-.9-2-2-2h-3v2h3v2.65L13.52 14H10V9H6c-2.21 0-4 1.79-4 4v3h2c0 1.66 1.34 3 3 3s3-1.34 3-3h4.48L19 10.35V7zM7 17c-.55 0-1-.45-1-1h2c0 .55-.45 1-1 1z"/><path d="M5 6h5v2H5zm14 7c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/></svg>
+      </div>
+      <span class="eyebrow">EasyRide</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: November 12, 2026</p>
+    <p>Amine Tahtoub / ATDIGITALSTUDIO ("we") publishes the EasyRide: Moto Dashboard app (Android package com.atdigitalstudio.easyride, "the app"). This policy explains what the app accesses and why.</p>
+  </header>
+
+  <div class="summary" aria-label="Summary">
+    <div class="pill local"><strong>Stays on your phone</strong><span>Settings, trips and GPS tracks, garage and fuel log, emergency contacts, favorite calls, messages. We have no server and no account.</span></div>
+    <div class="pill shared"><strong>Sent only when needed</strong><span>Map, search, routes, speed limits, weather, prayer times and radio use free online services. Ads (AdMob) and crash reports (Crashlytics).</span></div>
+  </div>
+
+  <section>
+    <h2>Data that stays on your device</h2>
+    <ul>
+      <li><b>Settings and preferences</b> (units, language, alerts, dashboard options, saved places, quick replies, radio favorites) are stored only on your device.</li>
+      <li><b>Location</b> is used to show your speed, your position on the map, the road speed limit and local weather, and to guide you turn by turn. It is used in the background only while a trip or a route that you started is running, with a visible notification. The app does not request background location access.</li>
+      <li><b>Trips</b>: when you start a trip, its date, distance, duration, speeds and GPS track are saved on your device so you can review it and export it as a GPX file. Nothing is uploaded; a GPX file leaves your phone only if you choose to share it. You can delete trips at any time.</li>
+      <li><b>Garage</b>: your motorcycles, odometer, maintenance reminders and fuel log are stored on your device only.</li>
+      <li><b>Parking position</b>: when you tap "Save parking spot", that position is saved on your device only, and you can delete it.</li>
+      <li><b>Emergency contacts (SOS)</b>: the names and numbers you enter are stored on your device only. SOS opens your own phone or SMS app with a message and a map link to your position; nothing is sent unless you send it yourself. Fall detection (optional, experimental) uses the motion sensors on your device only.</li>
+      <li><b>Favorite calls</b>: you pick each favorite with Android's contact picker, so the app only receives the contact you picked, never your address book. The name and number are stored on your device. If you turn on "Call in one tap" (optional phone permission), the app starts the call directly; otherwise your dialer opens with the number filled in.</li>
+      <li><b>Messages and caller announcement</b> (only if you enable notification access yourself): message notifications from apps such as WhatsApp or SMS are shown and read aloud on your device, and the caller's name is read from the phone app's notification. The last messages are kept in memory only while the app runs: they are never written to storage and never transmitted. When you reply (a quick reply, or by voice after confirmation), the text is handed to the messaging app through its own notification "Reply" action, as a smartwatch does; that app then sends it under its own privacy policy.</li>
+      <li><b>Microphone</b>: voice commands are captured only after you tap the microphone, through Android's speech recognition service. The app does not request the microphone permission.</li>
+      <li><b>Motion sensors</b> (compass, indicative lean angle, fall detection) are read on your device and are never sent anywhere.</li>
+      <li><b>Prayer times</b>: the times of the day are cached on your device with the rounded position used to compute them, so they work offline.</li>
+      <li><b>Map tiles</b> already displayed may be cached on your device. The cache contains map images only, not your position.</li>
+      <li>App data is excluded from cloud backups and is deleted when you uninstall the app.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Data shared with third parties</h2>
+    <ul>
+      <li><b>Map display</b> <span class="host">openfreemap.org</span><br>Map tiles, fonts and icons are downloaded from OpenFreeMap. These requests contain the area of the map being displayed, not your GPS position, plus your IP address as for any internet request.</li>
+      <li><b>Address search</b> <span class="host">photon.komoot.io</span><br>When you search for a place, the text you type and your current position are sent to Photon (operated by komoot) to find and rank nearby results.</li>
+      <li><b>Route calculation</b> <span class="host">router.project-osrm.org</span><br>When you start a route, and when it is recalculated because you left it, your current position and the destination are sent to the OSRM routing server. The position is sent only at that moment, not continuously.</li>
+      <li><b>Road speed limit</b> <span class="host">overpass-api.de · overpass.private.coffee</span><br>While the dashboard is open with location on, your position is sent to the Overpass API (OpenStreetMap data) at most once every 30 seconds and only after you moved more than 300 m, to read the speed limit of the road you are on. A second public Overpass server is used only if the first one does not respond.</li>
+      <li><b>Weather</b> <span class="host">open-meteo.com</span><br>Your position rounded to about 1 km is sent to Open-Meteo to get current weather and rain probability.</li>
+      <li><b>Prayer times</b> <span class="host">aladhan.com</span><br>Only if you turn prayer times on: your position rounded to about 1 km and the chosen calculation method are sent to Aladhan, about once a day.</li>
+      <li><b>Radio</b> <span class="host">radio-browser.info</span><br>The station list, your searches (station name, genre or country) and the station you play are sent to Radio Browser. The audio stream is then downloaded from the radio station's own server, which sees your IP address.</li>
+      <li><b>Sharing</b><br>When you share a route, a position or a GPX file, Android's share sheet hands it to the app you choose, which applies its own privacy policy.</li>
+      <li><b>Updates and ratings</b> <span class="host">Google Play</span><br>The app uses Google Play's in-app update and in-app review services, operated by Google under its own privacy policy. Updates are offered only when you are stopped.</li>
+      <li><b>Advertising</b> <span class="host">Google AdMob</span><br>The app uses Google AdMob, which may collect device identifiers (advertising ID), IP address and usage data to serve and measure ads, according to the consent you give in the privacy message. Ads are never shown while you are riding or navigating. See <a href="https://policies.google.com/technologies/ads" rel="noopener">how Google uses data in ads</a>. You can change your choice in Settings &gt; Ad privacy options.</li>
+      <li><b>Consent message</b> <span class="host">Google UMP</span><br>The privacy message shown on first launch is provided by Google's User Messaging Platform. To know whether it must be shown in your region and to store your choice, it receives your IP address and device information. See <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</li>
+      <li><b>Crash reports</b> <span class="host">Firebase Crashlytics</span><br>When the app crashes, a report is sent to Firebase Crashlytics (Google LLC) so we can fix the problem. It contains the technical error, the device model, the Android version, the app version and a random installation identifier generated by Firebase. It never contains your position, contacts, messages or anything you type. Reports are kept by Google for 90 days. See <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase privacy</a>.</li>
+    </ul>
+    <p>All requests identify the app with a User-Agent header (app name and version), not you. All of them use encrypted HTTPS connections, except some radio streams that their stations only provide over HTTP.</p>
+  </section>
+
+  <section>
+    <h2>Your choices</h2>
+    <ul>
+      <li>You can refuse or revoke location, phone and notification permissions in Android settings at any time; the related features then stop working.</li>
+      <li>You can delete trips, motorcycles, contacts, favorites and saved places in the app, or delete all data by uninstalling it.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Safety</h2>
+    <p>Always keep your eyes on the road and follow traffic rules and road signs. Speed limits, lean angle and fall detection are indicative. Set up the app before you ride.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>The app is not directed to children under 13.</p>
+  </section>
+
+  <section>
+    <h2>Not affiliated</h2>
+    <p>EasyRide is an independent app, not affiliated with any motorcycle manufacturer, Apple or Google.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="contact">
+      <span class="meta">Questions about this policy or your data</span>
+      <span class="mail">contact@atdigitalstudio.com</span>
+    </div>
+  </section>
+
+  <footer>© 2026 Amine Tahtoub / ATDIGITALSTUDIO</footer>
+</main>
+</body>
+</html>
