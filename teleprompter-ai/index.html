@@ -3,138 +3,129 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Teleprompter AI Privacy Policy</title>
+<title>Privacy Policy – Teleprompter AI: Video Script</title>
 <meta name="description" content="Privacy policy of the Android app Teleprompter AI: Video Script by AT Digital Studio.">
 <link rel="icon" type="image/png" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
 <style>
-  :root {
-    --bg: #f6f5fd;
-    --surface: #ffffff;
-    --fg: #14102a;
-    --muted: #4f4a68;
-    --line: #e2def2;
-    --accent: #6d3ff0;
-    --accent-soft: #eee8ff;
-    --ok: #0b7a4b;
-    --ok-soft: #e3f4ec;
-    --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
-    --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
-  }
+  :root { --bg:#f6f8fa; --card:#fff; --text:#111827; --muted:#475569; --accent:#6d3ff0; --line:#e2e8f0; }
   @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0b0918; --surface: #151129; --fg: #f1effb; --muted: #aaa4c4; --line: #272145;
-      --accent: #a98bff; --accent-soft: #221a47; --ok: #4fdba0; --ok-soft: #0f2b22; color-scheme: dark;
-    }
+    :root { --bg:#111827; --card:#1f2937; --text:#f1f5f9; --muted:#cbd5e1; --accent:#b49bff; --line:#334155; }
   }
-  :root[data-theme="dark"] {
-    --bg: #0b0918; --surface: #151129; --fg: #f1effb; --muted: #aaa4c4; --line: #272145;
-    --accent: #a98bff; --accent-soft: #221a47; --ok: #4fdba0; --ok-soft: #0f2b22; color-scheme: dark;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--bg); color: var(--fg); font: 400 16px/1.65 var(--font-body);
-    padding-left: max(16px, env(safe-area-inset-left, 0px));
-    padding-right: max(16px, env(safe-area-inset-right, 0px));
-    padding-block: 40px 64px;
-  }
-  main { max-width: 720px; margin: 0 auto; display: grid; gap: 28px; }
-  header { display: grid; gap: 10px; }
-  .app { display: flex; align-items: center; gap: 12px; }
-  .app img { width: 44px; height: 44px; border-radius: 12px; flex: none; }
-  .eyebrow { font: 600 12px/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
-  h1 { font: 800 clamp(28px, 5vw, 40px)/1.15 var(--font-body); margin: 0; text-wrap: balance; }
-  .meta { color: var(--muted); font-size: 14px; }
-  p { margin: 0; }
-  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
-  .pill { border-radius: 14px; padding: 16px 18px; display: grid; gap: 6px; }
-  .pill strong { font-size: 15px; }
-  .pill span { color: var(--muted); font-size: 14px; }
-  .local { background: var(--ok-soft); }
-  .local strong { color: var(--ok); }
-  .shared { background: var(--accent-soft); }
-  .shared strong { color: var(--accent); }
-  section { display: grid; gap: 14px; }
-  h2 { font: 800 21px/1.3 var(--font-body); margin: 8px 0 0; padding-top: 18px; border-top: 1px solid var(--line); }
-  ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
-  li { min-width: 0; }
-  li b { font-weight: 700; }
-  a { color: var(--accent); text-underline-offset: 3px; overflow-wrap: anywhere; }
-  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
-  .host { font: 500 13px var(--font-mono); color: var(--muted); }
-  .contact { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: grid; gap: 6px; }
-  .contact .mail { font: 600 17px var(--font-body); user-select: all; }
-  footer { color: var(--muted); font-size: 13px; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  article { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:28px 24px; }
+  h1 { font-size:1.7rem; line-height:1.25; margin:0 0 8px; }
+  h2 { font-size:1.15rem; margin:28px 0 8px; color:var(--accent); }
+  p, li { color:var(--muted); }
+  .meta { font-size:.92rem; color:var(--muted); margin-bottom:20px; }
+  a { color:var(--accent); word-break:break-word; }
+  code { word-break:break-word; }
+  footer { text-align:center; font-size:.85rem; color:var(--muted); margin-top:24px; }
 </style>
 </head>
 <body>
-
 <main>
-  <header>
-    <div class="app">
-      <img src="icon.png" alt="" width="44" height="44">
-      <span class="eyebrow">Teleprompter AI</span>
-    </div>
-    <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: November 23, 2026</p>
-    <p>Amine Tahtoub / ATDIGITALSTUDIO ("we") publishes the Teleprompter AI: Video Script app (Android package com.teleprompter.videoscript.pro, "the app"). This policy explains what the app accesses and why. The app needs no account and we never sell personal data.</p>
-  </header>
+<article>
+<h1>Privacy Policy — Teleprompter AI: Video Script</h1>
+<p class="meta">Last updated: November 23, 2026 · Developer: AT Digital Studio ·
+Contact: <a href="mailto:contact@atdigitalstudio.com">contact@atdigitalstudio.com</a></p>
 
-  <div class="summary" aria-label="Summary">
-    <div class="pill local"><strong>Stays on your phone</strong><span>Scripts, recorded videos, your name, settings and language. Camera and microphone are used only while you record.</span></div>
-    <div class="pill shared"><strong>Sent only when needed</strong><span>The AI generator sends the topic you type to our server. Ads (AdMob), consent (UMP), app updates and reviews (Google Play).</span></div>
-  </div>
+<p>This policy explains how the Android app <strong>Teleprompter AI: Video Script</strong>
+(<code>com.teleprompter.videoscript.pro</code>, "the App") handles information.</p>
+<p>In short: the App lets you write scripts, read them on a scrolling teleprompter and record videos with your
+phone's camera while the script scrolls. Your scripts and videos stay on your phone. The App has no account and
+does not upload your scripts or videos. The only data sent off your device is the topic you type in the optional
+AI script generator, and the data processed by Google to show ads and run Google Play features, as described below.</p>
 
-  <section>
-    <h2>Data that stays on your device</h2>
-    <ul>
-      <li><b>Scripts</b> (title, text, favorites) are stored in the app's local database on your phone. Text files you import are read on your device only.</li>
-      <li><b>Videos</b> are recorded to the app's private storage on your phone and are never uploaded to us. They are copied to your gallery or shared with another app only when you tap Save to gallery or Share.</li>
-      <li><b>Camera and microphone</b> are used only while the recording screen is open, to film you and capture your voice. You can record without the microphone. Nothing is streamed or sent anywhere.</li>
-      <li><b>Your name</b> (optional, shown in the greeting), <b>settings</b> (theme, text size, scroll speed, mirror mode, video quality), <b>language</b> and the daily count of AI generations are stored on your device only.</li>
-      <li><b>Android backup</b>: if you have enabled backup in your phone settings, Android may include your scripts and settings in your own Google backup so they can be restored on a new phone. Videos are not included.</li>
-    </ul>
-  </section>
+<h2>1. Scripts, camera and videos</h2>
+<p>Scripts (title, text, favorites) are stored only in the App's local database on your phone. When you import a
+text file, it is read on your device only.</p>
+<p>The camera and microphone are used only while the recording screen is open. Videos (MP4) are recorded to the
+App's private storage on your phone and are never uploaded by the App. A video is copied to your gallery
+(<code>Movies</code>) only when you press "Save to gallery". When you choose "Share", Android's share sheet sends the
+video to the app you pick; we do not see it. You can record without the microphone; the video then has no sound.</p>
 
-  <section>
-    <h2>Data shared with third parties</h2>
-    <ul>
-      <li><b>AI script generator</b> <span class="host">teleprompter-ai.sendfast.workers.dev</span><br>When you tap Generate Script, the app sends our server, hosted on Cloudflare Workers, the topic you type, the content type, the tone, the duration and the app language. They are used only to write the script with Cloudflare Workers AI and to send it back to you. We do not store the topic or the script and do not link them to you. Please do not type sensitive personal information in the topic. Cloudflare processes technical data such as your IP address to deliver and protect the service; see the <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare privacy policy</a>.</li>
-      <li><b>Advertising</b> <span class="host">Google AdMob</span><br>The app shows ads with Google AdMob (banner, interstitial, app open and optional rewarded video ads for extra AI generations). Google may collect the advertising ID, IP address, device information and ad interactions to serve and measure ads, and to personalize them if you agree. Ads are never shown while you record. See <a href="https://policies.google.com/technologies/ads" rel="noopener">how Google uses data in ads</a>. You can reset or delete your advertising ID in Android settings.</li>
-      <li><b>Consent message</b> <span class="host">Google UMP</span><br>Where required (EEA, UK, Switzerland and other regions), a privacy message from Google's User Messaging Platform is shown at first launch. To know whether it must be shown and to store your choice, it receives your IP address and device information. You can change your choice at any time in Settings &gt; Privacy choices. See <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</li>
-      <li><b>App updates and reviews</b> <span class="host">Google Play</span><br>The app uses Google Play In-App Updates to tell you when a new version is available and to download it if you choose, and Google Play In-App Review to let you rate the app without leaving it. Both are provided by Google Play, which receives your Google Play account and device information under its own <a href="https://policies.google.com/privacy" rel="noopener">privacy policy</a>. We never see your Google account or who wrote a review.</li>
-      <li><b>Sharing</b><br>When you share a video, Android's share menu hands it to the app you choose, which applies its own privacy policy.</li>
-    </ul>
-    <p>The app has no analytics and no crash reporting service. All network traffic is encrypted (HTTPS).</p>
-  </section>
+<h2>2. AI script generator</h2>
+<p>When you press "Generate Script", the App sends our server, hosted on Cloudflare Workers
+(<code>teleprompter-ai.sendfast.workers.dev</code>), the topic you type, the content type (TikTok, Reels, YouTube,
+presentation, podcast), the tone, the duration and the App language. This information is used only to write the
+script with Cloudflare Workers AI and send it back to you. We do not store the topic or the generated script and do
+not link them to you. Please do not type sensitive personal information in the topic. Cloudflare processes technical
+data such as your IP address to deliver and protect the service:
+<a href="https://www.cloudflare.com/privacypolicy/">https://www.cloudflare.com/privacypolicy/</a>.</p>
+<p>AI-generated text may contain mistakes; review it before recording.</p>
 
-  <section>
-    <h2>Retention and your choices</h2>
-    <p>Everything stored on your device stays there until you delete it in the app or uninstall the app. Because we keep no personal data on our servers, there is nothing for us to delete; for data processed by Google, use the links above.</p>
-  </section>
+<h2>3. Data stored on your device</h2>
+<p>The App stores a few local settings: your optional name shown in the
+greeting, your chosen language, appearance (theme, accent color, text color, font, text size, line spacing, margins),
+teleprompter options (scroll speed, mirror mode, video quality), the number of free AI generations used today and
+any bonus generations unlocked, and a counter of successful recordings and exports used to ask for a rating at most
+once every 30 days, and when ads were last shown (to limit how often they appear). Your scripts and settings stay on your device and may be included in your Android device backup
+if backup is enabled; videos are not included. You can delete them by clearing the App's data or uninstalling it.</p>
 
-  <section>
-    <h2>Children</h2>
-    <p>The app is not directed to children under 13 and does not knowingly collect their data.</p>
-  </section>
+<h2>4. Advertising (Google AdMob)</h2>
+<p>The App is free and shows ads through Google AdMob: banners, full-screen (interstitial) ads, app open ads and
+optional rewarded ads ("watch an ad to unlock extra AI generations for today"). Ads are never shown during a
+recording. To serve and measure ads, Google may collect and process the device advertising ID, IP address,
+approximate location derived from the IP, device and app information, and ad interaction data.</p>
+<p>Where required (for example in the EEA, UK, Switzerland and certain US states), the App asks for your consent
+through Google's User Messaging Platform before ads are requested. You can change your choice at any time in
+Settings → Privacy choices (shown when applicable). You can also reset or delete your advertising ID in Android
+settings.</p>
+<p>Google's policy: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></p>
 
-  <section>
-    <h2>Changes</h2>
-    <p>This policy may be updated. The date at the top shows the latest version.</p>
-  </section>
+<h2>5. Google Play features</h2>
+<p>The App uses Google Play In-App Review to let you rate the App, and Google Play In-App Updates to tell you when a
+new version is available and install it. Both are handled by Google Play under your Google account; we do not
+receive your account details or see who wrote a review.</p>
 
-  <section>
-    <h2>Contact</h2>
-    <div class="contact">
-      <span class="meta">Questions about this policy or your data</span>
-      <span class="mail">contact@atdigitalstudio.com</span>
-    </div>
-  </section>
+<h2>6. Permissions</h2>
+<ul>
+  <li><strong>Camera</strong> (<code>android.permission.CAMERA</code>): record videos while the teleprompter scrolls.
+  Used only while the recording screen is open.</li>
+  <li><strong>Microphone</strong> (<code>android.permission.RECORD_AUDIO</code>): optional, records your voice in the
+  video; used only while recording.</li>
+  <li><strong>Storage</strong> (<code>WRITE_EXTERNAL_STORAGE</code>, Android 9 and earlier only): save a video to your
+  gallery. On Android 10 and later no storage permission is used.</li>
+  <li><strong>Internet and network state</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>): AI script
+  generator, ads, consent form and Google Play features.</li>
+  <li><strong>Advertising ID</strong> (<code>com.google.android.gms.permission.AD_ID</code>,
+  <code>ACCESS_ADSERVICES_AD_ID</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code>, <code>ACCESS_ADSERVICES_TOPICS</code>):
+  added by the Google Mobile Ads SDK for ads, as described in section 4.</li>
+</ul>
+<p>The App does not request access to your location, contacts, call logs, or to photos and videos created by other apps.</p>
 
-  <footer>© 2026 Amine Tahtoub / ATDIGITALSTUDIO</footer>
+<h2>7. Data sharing</h2>
+<p>We do not sell personal data. The topic you type in the AI generator is processed by Cloudflare only to write
+your script. Data is processed by Google only to provide advertising, consent management, in-app reviews and in-app
+updates. We do not use any other analytics, crash reporting or tracking service.</p>
+
+<h2>8. Data retention</h2>
+<p>Scripts, videos and settings stay on your device until you delete them or uninstall the App (videos saved to your
+gallery remain there after uninstalling unless you delete them). AI requests are not stored by us. Data collected by
+Google is retained according to Google's policies. E-mails you send us are kept only as long as needed to answer you.</p>
+
+<h2>9. Children</h2>
+<p>The App is not directed at children under 13. We do not knowingly collect personal information from children. If
+you believe a child has provided personal information, contact us and we will help remove it.</p>
+
+<h2>10. Security</h2>
+<p>Communication with our AI server and with Google services is encrypted (HTTPS). The App does not send your
+scripts or videos to any server.</p>
+
+<h2>11. Your rights</h2>
+<p>Depending on your location you may have rights to access, correct or delete data. Because we keep no personal data
+on our servers, deleting your scripts and videos in the App, or uninstalling it, erases your data. For data held by
+Google, use Google's tools. For any question, contact
+<a href="mailto:contact@atdigitalstudio.com">contact@atdigitalstudio.com</a>.</p>
+
+<h2>12. Changes</h2>
+<p>We may update this policy. The "Last updated" date shows the latest version.</p>
+</article>
+<footer>© 2026 AT Digital Studio · <a href="https://www.atdigitalstudio.com">atdigitalstudio.com</a></footer>
 </main>
 </body>
 </html>
